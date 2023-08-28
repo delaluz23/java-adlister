@@ -29,6 +29,26 @@
     -webkit-animation-delay: 0.4s;
     animation-delay: 0.4s;
 }
+.waveTextAnimated span:nth-of-type(6) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.waveTextAnimated span:nth-of-type(7) {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+.waveTextAnimated span:nth-of-type(8) {
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+}
+.waveTextAnimated span:nth-of-type(9) {
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+.waveTextAnimated span:nth-of-type(10) {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
 @-webkit-keyframes wave-text {
     00% {
         transform: translateY(0em);
