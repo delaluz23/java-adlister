@@ -11,6 +11,26 @@ public class ListAdsDao implements Ads {
         return ads;
     }
 
+    @Override
+    public Ads findCoffeeById(long id) {
+        return null;
+    }
+
+    @Override
+    public void insert(Ads ad) {
+        ad.insert(ad);
+    }
+
+    @Override
+    public void update(Ads ad) {
+
+    }
+
+    @Override
+    public void delete(Ads ad) {
+
+    }
+
     private List<Ad> generateAds() {
         List<Ad> ads = new ArrayList<>();
         ads.add(new Ad(
