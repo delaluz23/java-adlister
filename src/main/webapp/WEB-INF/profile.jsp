@@ -12,6 +12,7 @@
     <%@include file="partials/waveingspans.jsp"%>
 </head>
 <body>
+<<<<<<< HEAD:src/main/webapp/profile.jsp
 <%@include file="partials/navbar.jsp"%>
 <div class="waveTextAnimated">
     <span>L</span>
@@ -25,5 +26,13 @@
     <span>I</span>
     <span>N</span>
 </div>
+=======
+    <jsp:include page="partials/navbar.jsp" />
+    <div class="container">
+        <h1>Viewing your profile.</h1>
+        <h2>Welcome ${user}</h2>
+    </div>
+
+>>>>>>> sessions-and-cookies-exercise:src/main/webapp/WEB-INF/profile.jsp
 </body>
 </html>
