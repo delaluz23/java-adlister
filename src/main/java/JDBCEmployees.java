@@ -21,6 +21,9 @@ public class JDBCEmployees {
             names.add(rs.getString("first_name"));
         }
         System.out.println(names);
-
+        ResultSet result = statement.executeQuery("select * from employees");
+        while (result.next()){
+            System.out.println(rs.getString("first_name"));
+        }
     }
 }
